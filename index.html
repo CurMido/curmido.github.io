@@ -38,13 +38,7 @@
     }
 </style>
 <div class="onediv">
-  <a href="http://pan.baidu.com/s/1hr7XV72">文件-20160601</a><input type="button" value="复制并打开网页">
-    {
-    "视频1": "链接 http://pan.baidu.com/s/1hr7XV72 密码: hy1r",
-    "视频2": "链接: http://pan.baidu.com/s/1i5PNcuL 密码: c6yg",
-    "视频3": "链接: http://pan.baidu.com/s/1pLCJBwn 密码: suak",
-    "视频4": "链接: http://pan.baidu.com/s/1slw06BV 密码: e99u"
-    }
+  <a href="http://pan.baidu.com/s/1qYKjiMg">文件-20160601</a><input type="text" id="3ind" value="3ind"><input type="button" onclick="copyCode()" value="复制并打开网页">
 </div>
 <ul>
     <li></li>
@@ -55,4 +49,13 @@
     <li></li>
 </ul>
 </body>
+<script type="text/javascript"> 
+function copyCode() 
+{ 
+var code1=document.getElementById("3ind"); 
+code1.select(); // 选择对象 
+document.execCommand("Copy"); // 执行浏览器复制命令 
+alert("已复制好，可贴粘。"); 
+} 
+</script> 
 </html>
